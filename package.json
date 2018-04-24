@@ -2,10 +2,9 @@
   "name": "dagblog",
   "version": "1.0.0",
   "description": "blog template",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --progress --watch --config webpack.config.js",
+    "dev": "webpack --progress --watch --mode=development --config webpack.config.js",
     "prod": "webpack -p --config  webpack.config.js"
   },
   "keywords": [
@@ -41,6 +40,7 @@
     "style-loader": "^0.21.0",
     "ts-loader": "^4.2.0",
     "typescript": "^2.8.3",
-    "webpack": "^4.6.0"
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
   }
 }
