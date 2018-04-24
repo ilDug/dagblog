@@ -1,0 +1,297 @@
+[25-Oct-2017 12:46:40 UTC] PHP Warning:  require_once(/home/ydomjpkn/API/admin/vendor/phpmailer/phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/ydomjpkn/API/admin/Email.class.php on line 2
+[25-Oct-2017 12:46:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ydomjpkn/API/admin/vendor/phpmailer/phpmailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ydomjpkn/API/admin/Email.class.php on line 2
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:40:14 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:15 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:37 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:40:42 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:42 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:42 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:42 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:40:42 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:40:43 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:40:43 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:40:43 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:40:43 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:42:27 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:42:30 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:43:32 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:43:32 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:43:32 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:43:32 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:43:33 UTC] PHP Notice:  Undefined variable: u in /home/ydomjpkn/API/admin/auth/access.manager.php on line 41
+[02-Nov-2017 14:43:33 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.manager.php on line 41
+[02-Nov-2017 14:43:33 UTC] PHP Notice:  Undefined variable: u in /home/ydomjpkn/API/admin/auth/access.manager.php on line 42
+[02-Nov-2017 14:43:33 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.manager.php on line 42
+[02-Nov-2017 14:43:33 UTC] PHP Notice:  Undefined variable: u in /home/ydomjpkn/API/admin/auth/access.manager.php on line 43
+[02-Nov-2017 14:43:33 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.manager.php on line 43
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:52:05 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:52:41 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:53:12 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 14:57:48 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 14:57:49 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 14:57:49 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 14:57:49 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 14:57:49 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:04:44 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:04:44 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:04:44 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:04:44 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:04:44 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:04:45 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:04:45 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:04:45 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:04:45 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:06:05 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:06:12 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:06:12 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:06:12 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:06:12 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:06:12 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:13:14 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:14 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:14 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:14 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:14 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:13:15 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:15 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:15 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:15 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:20 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:21 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:36 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:36 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:36 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:36 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:13:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:13:37 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:13:37 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:13:37 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:13:37 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:14:52 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:14:52 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:14:52 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:14:52 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:14:52 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:14:53 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:14:53 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:14:53 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:14:53 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:15:55 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:15:55 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:15:55 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:15:55 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:15:55 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:15:57 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:15:57 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:15:57 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:15:57 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:16:09 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:16:09 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:16:09 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:16:09 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:16:09 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:16:10 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:16:10 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:16:10 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:16:10 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:20:41 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:20:41 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:20:41 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:20:41 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 15:20:41 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 15:20:42 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 15:20:42 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 15:20:42 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 15:20:42 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:01:46 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:07:32 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:10:47 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:11:44 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:43:22 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:48:20 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:54:07 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:54:08 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Trying to get property of non-object in /home/ydomjpkn/API/admin/auth/access.api.php on line 16
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant JWT_ISS already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 2
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant JWT_AUD already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 3
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant RSA_KEY_PASSPHRASE already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 5
+[02-Nov-2017 18:59:04 UTC] PHP Notice:  Constant RSA_KEY_DIR already defined in /home/ydomjpkn/API/admin/auth/AuthConfig.php on line 6
+[02-Nov-2017 18:59:04 UTC] PHP Catchable fatal error:  Object of class ServerResponse could not be converted to string in /home/ydomjpkn/API/admin/auth/access.api.php on line 22

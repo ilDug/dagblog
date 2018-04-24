@@ -1,0 +1,46 @@
+{
+  "name": "dagblog",
+  "version": "1.0.0",
+  "description": "blog template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --progress --watch --config webpack.config.js",
+    "prod": "webpack -p --config  webpack.config.js"
+  },
+  "keywords": [
+    "blog",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilDug/dagblog.git"
+  },
+  "author": "ilDug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilDug/dagblog/issues"
+  },
+  "homepage": "https://github.com/ilDug/dagblog#readme",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "bootstrap": "^4.1.0",
+    "fuse.js": "^3.2.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.1",
+    "popper.js": "^1.14.3",
+    "rxjs": "^5.5.10"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.1.0",
+    "@types/jquery": "^3.3.1",
+    "@types/node": "^9.6.6",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "posterbook/admin",
+    "description": "posterbook administration app",
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "bramus/router": "^1.2",
+        "lcobucci/jwt": "^3.2"
+    }
+}
