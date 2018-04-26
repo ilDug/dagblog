@@ -7,23 +7,8 @@
     try {
         $pam = new PostArchiveManager($code);
     } catch (Exception $e) {
-        switch ($e->getCode()) {
-            case 1: //codice mancante
-                header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
-                break;
-
-            case 2: //file contenuto non trovato
-                header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
-                break;
-
-            case 3: //file dati non trovato
-                header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
-                break;
-
-            default:
-                header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
-                break;
-        }
+        header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
+        header('Location: /404.php?err='.$e->getMessage() );
     }
 
     $article = $pam->post;
@@ -34,9 +19,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title><?php echo $post->title; ?></title>
+
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/override-bootstrap.css">
     </head>
     <body>
-
+        <?php echo $article; ?>
     </body>
 </html>

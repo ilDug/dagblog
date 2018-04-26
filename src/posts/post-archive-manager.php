@@ -48,7 +48,7 @@ class PostArchiveManager
                 //ottine il codice dal nome del file
                 $filename = pathinfo($file, PATHINFO_FILENAME);
                 // ottiene il codie all'interno del nome de file
-                $codefilename = (int)( ( explode('.', $filename) )[0] );
+                $codefilename = (int)( explode('.', $filename)[0] );
 
                 if($codefilename == $code){
                     //  DATA

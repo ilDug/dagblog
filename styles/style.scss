@@ -1,0 +1,30 @@
+// compileCompressed: ../src/styles/$1.css
+
+
+
+// Google font import
+// @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:100,400,400i,700');
+
+@import "variables";
+// @import "utility";
+// @import "common";
+// @import "navbar";
+// @import "search-overlay";
+// @import "footer";
+// @import "showcase";
+// @import "banner";
+// @import "landing";
+// @import "feature-box";
+// @import "iubenda";
+//
+// @import "catalog-showcase";
+// @import "catalog-aside";
+//
+// @import "404";
+// @import "request";
+//
+// @import "posterbook";
+// @import "faq";
+*{
+    background-color: $color-primary;
+}
