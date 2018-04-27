@@ -1,0 +1,33 @@
+//main: ./style.scss
+
+.post{
+    background-color: $color-white;
+    padding-top: 1rem;
+
+    p, h1, h2, h3, h4, h5, h6{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+
+    figure{
+        width: 100%;
+        max-height: 20rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+    }
+
+
+    .post-info{
+        color: $gray-300;
+        font-size: 0.8rem;
+
+    }
+}

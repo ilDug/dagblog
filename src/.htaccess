@@ -1,0 +1,48 @@
+RewriteEngine On
+#RewriteBase /
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+#forza https
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#aggiunge www
+#RewriteCond %{HTTP_HOST} ^eurokemical.it$ [NC]
+#RewriteRule ^(.*)$ http://www.eurokemical.it/$1 [L,R=301]
+
+#ErrorDocument 404 /404-page-not-found.php
+
+#RewriteRule ^([0-9]+)/([^/]+)$ src/index.php?code=$1 [QSA,L]
+#RewriteRule ^(.*)$ index.php [QSA,L]
+
+#RewriteRule ^contacts$ contacts.php [QSA,L]
+#RewriteRule ^products$ products.php [QSA,L]
+#RewriteRule ^quality$ ISO9001.php [QSA,L]
+#RewriteRule ^search$ search.php [QSA,L]
+#RewriteRule ^policies/cookies$ cookies-policy.php [QSA,L]
+#RewriteRule ^policies/privacy$ privacy-policy.php [QSA,L]
+#RewriteRule ^products/([0-9]+)/([^/]+)$ product.php?p=$1 [QSA,L]
+
+
+
+#RewriteRule ^([0-9]+)$ index.php?page=$1 [QSA,L]
+#RewriteRule ^([0-9]+)/([^/]+)$ post.php?postcode=$1 [QSA,L]
+#RewriteRule ^categorie/([0-9]+)-([^/]+)$ categories.php?category=$1 [QSA,L]
+#RewriteRule ^tag/([^/]+)$ tags.php?tag=$1 [QSA,L]
+#RewriteRule ^policies/cookies$ cookies-policy.php [QSA,L]
+#RewriteRule ^policies/privacy$ privacy.php [QSA,L]
+#RewriteRule ^list$ masonry.php [QSA,L]
+#RewriteRule ^terms-conditions$ terms-conditions.php [QSA,L]
+
+# RewriteRule ^(.*)$ index.php?p=$1 [QSA,L]
+
+# RewriteRule ^_([0-9]+)$ index.php?p=$1 [QSA,L]
+# RewriteRule ^([^/]+)-([0-9]+)$ articoli.php?art=$2&t=$1 [QSA,L]
+# RewriteRule ^([^/]+)\.html_([0-9]+)$ categorie.php?art=$1&p=$2 [QSA,L]
+# RewriteRule ^([^/]+)\.html$ categorie.php?art=$1 [QSA,L]
+# RewriteRule ^([^/]+)-tag$ finder.php?trova=$1 [QSA,L]
+# RewriteRule ^(.*)$ articoli.php?art=$1 [QSA,L]

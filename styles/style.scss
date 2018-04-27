@@ -4,8 +4,11 @@
 
 // Google font import
 // @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:100,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Montserrat:400,400i,700');
 
 @import "variables";
+@import "header";
+@import "post";
 // @import "utility";
 // @import "common";
 // @import "navbar";
@@ -25,6 +28,15 @@
 //
 // @import "posterbook";
 // @import "faq";
-*{
-    background-color: $color-primary;
+
+p{
+    color:$dag-paragraph-color;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: $dag-headings-color !important;
+}
+
+body{
+    //background-color: $color-background !important;
 }

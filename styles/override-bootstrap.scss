@@ -1,15 +1,29 @@
 //compileCompressed: ../src/styles/$1.css
 
 
+$font-family-sans-serif-title: 'Black Han Sans', sans-serif;
 $font-family-sans-serif: 'Montserrat', sans-serif;
-$font-family-monospace: 'Inconsolata', monospace;
+// $font-family-monospace: 'Inconsolata', monospace;
+//
+$font-family-base:       $font-family-sans-serif !default;
+$headings-font-family:   $font-family-sans-serif-title !default;
 
-$font-family-base:       $font-family-monospace !default;
-$headings-font-family:   $font-family-sans-serif !default;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-sm:                ($font-size-base * .875) !default;
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
 
 /**************************************************/
 @import "variables";
 
+$primary : $color-primary; //colore primario bootstrap
 $nav-tabs-link-active-color: $color-primary !default;
 
 $navbar-light-color:                rgba($black,.5) !default;
@@ -19,16 +33,17 @@ $navbar-light-disabled-color:       rgba($black,.3) !default;
 $navbar-light-toggler-border-color: rgba($color-primary,.1) !default;
 
 
+
 // Carousel
 
-$carousel-control-color:                      $color-primary !default;
-$carousel-control-width:                      15% !default;
-$carousel-control-opacity:                    .5 !default;
+// $carousel-control-color:                      $color-primary !default;
+// $carousel-control-width:                      15% !default;
+// $carousel-control-opacity:                    .5 !default;
 
-$carousel-indicator-width:                    30px !default;
-$carousel-indicator-height:                   3px !default;
-$carousel-indicator-spacer:                   3px !default;
-$carousel-indicator-active-bg:                $color-primary !default;
+// $carousel-indicator-width:                    30px !default;
+// $carousel-indicator-height:                   3px !default;
+// $carousel-indicator-spacer:                   3px !default;
+// $carousel-indicator-active-bg:                $color-primary !default;
 
 
 
@@ -38,3 +53,9 @@ $carousel-indicator-active-bg:                $color-primary !default;
 
 /**************************************************/
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.navbar-toggler{
+    border: none;
+    color: $gray-700;
+}

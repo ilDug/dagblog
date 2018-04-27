@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+#per font awesome e altre cose che non volgio siano da mettere su github
+/src/plugins
+
 # compiled output
 /dist
 /tmp

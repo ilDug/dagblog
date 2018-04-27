@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: './src/scripts/index.ts',
     output: {
-        filename:'boundle.js',
+        filename:'bundle.js',
         path: path.resolve(__dirname, 'src')
     },
     module: {
