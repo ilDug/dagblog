@@ -6,7 +6,7 @@ export class Post{
     public code : number;
 
     /** date  */
-    public date: { creation : number,  update: number }
+    public date: { creation : Date,  update: Date }
 
     public title: string;
 

@@ -1,0 +1,58 @@
+//main : ./style.scss
+
+
+    $article-card-limit-h : 500px;
+    $article-card-limit-l: 499px;
+
+
+
+    @media(min-width: $article-card-limit-h){
+        .article-card{
+
+            margin-bottom: 1rem;
+            .card-box-link{
+                display: block;
+                text-decoration: none;
+                .card{
+                    height: 10rem;
+                    overflow: hidden;
+                    flex-direction: row;
+                }
+            }
+            .box-image{
+                // background-image:url(http://via.placeholder.com/200x30);
+                background-size: cover;
+                background-position: 50%;
+                flex: 0 1 40%;
+            }
+            .box-content{
+
+            }
+        }
+
+    }
+
+    @media(max-width: $article-card-limit-l){
+        .article-card{
+            margin-bottom: 1rem;
+            .card-box-link{
+                display: block;
+                text-decoration: none;
+                .card{
+                    overflow: hidden;
+                    flex-direction: column;
+                }
+            }
+            .box-image{
+                // background-image:url(http://via.placeholder.com/200x30);
+                background-size: cover;
+                background-position: 50%;
+                flex: 1 0 100%;
+                min-height: 10rem;
+            }
+            .box-content{
+
+            }
+        }
+
+    }

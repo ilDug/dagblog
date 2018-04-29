@@ -20,6 +20,7 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>
             <?php echo $post->title; ?>
         </title>
@@ -32,55 +33,114 @@
     </head>
 
     <body>
-        <header class="mb-3">
-            <div class="container ">
 
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#">DagTech <strong>BLOG</strong></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <!-- <span class="navbar-toggler-icon"></span> -->
-                        <span><i class="fal fa-bars"></i></span>
-                    </button>
+        <?php include 'views/header.html'; ?>
+        <main id="content">
+            <div class="container" >
+                <div class="row">
+                    <section class="col-md-9 col-sm-12">
+                        <article class="">
+                            <div class="post-info">
+                                <!-- like -->
+                                <span class="mr-3 float-right">
+                                <a class="mr-1" href="#"><i class="fal fa-heart fa-2x"></i></a>
+                                <span id="heart-counter">1</span>
+                                </span>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                                <!-- share -->
+                                <span class="mr-3 float-right">
+                                <a class="mr-1" href="#" data-toggle="modal" data-target="#socialDialog"><i class="fal fa-share-alt fa-2x"></i></a>
+                                </span>
 
-            </div>
-        </header>
 
-        <section class="container">
-            <div class="row">
-                <div class="col-md-9 col-sm-12">
-                    <div class="post">
-                        <?php echo $article; ?>
-                    </div>
+
+
+                                <!-- data -->
+                                <span class="ml-3"> <i class="fal fa-clock mr-1"></i> <?php echo date('d/m/Y', strtotime($post->date->update) ); ?> </span>
+
+                                <!-- categoria -->
+                                <span class="ml-3" data-toggle="tooltip" title="categoria"><i class="fal fa-tag mr-1"></i>
+                                <?php
+                                    foreach ($post->tags as $tag => $value) {
+                                        if($value->category) { echo strtoupper($tag);}
+                                    }
+                                ?>
+                                </span>
+
+                                <!-- views -->
+                                <span class="ml-3" data-toggle="tooltip" title="visualizzazioni"><i class="fal fa-asterisk mr-1"></i> 123</span>
+                            </div>
+
+
+                            <div class="post">
+                                <?php echo $article; ?>
+                            </div>
+
+
+                            <!-- tags -->
+                            <hr>
+                            <?php
+                                foreach ($post->tags as $tag => $value) {
+                                    if($value->label) { echo '<span class="ml-3 post-tag">'. $tag .'</span>';}
+                                }
+                            ?>
+                            <hr>
+                        </article>
+
+
+
+                        <div class="related mt-3">
+                            <div class="col-xs-12 mb-6">
+                                <?php
+                                    $i=0;
+                                    $iterate = 3;
+                                    foreach ($post->related as $r) {
+
+                                        $rpm =  new PostArchiveManager($post->related[$i]);
+                                        foreach ($post->tags as $tag => $value) {
+                                            if($value->category) { $cat =  strtoupper($tag);}
+                                        }
+                                        if($iterate==$i) { break; } else { $i++;  }
+                                        $template = '<div class="article-card">';
+                                        $template .= '<a class="card-box-link" href="/'. $rpm->data->code .'/'. $rpm->data->url .'">';
+                                        $template .= '<div class=" card shdw-h d-flex">';
+                                        $template .= '<div class="box-image" style="background-image:url(http://lorempixel.com/300/200);"> </div>';
+                                        $template .= '<div class="box-content p-3">';
+                                        $template .= '<h5>'. $rpm->data->title . '</h5>';
+                                        $template .= '<p><small class="text-muted">'. $rpm->data->date->update . '</small> <br>';
+                                        $template .= '<small class="text-muted">'. $cat .'</small></p>';
+                                        $template .= '</div>';
+                                        $template .= '</div>';
+                                        $template .= '</a>';
+                                        $template .= '</div>';
+
+                                        echo $template;
+                                    }
+                                ?>
+
+                            </div>
+                        </div>
+
+
+
+                    </section>
+                    <aside class="col-md-3 col-sm-12 my-5 d-sm-none d-md-block">
+                        <?php include 'views/aside.php'; ?>
+                    </aside>
                 </div>
             </div>
-        </section>
+
+        </main>
+
+
+        <?php include 'views/footer.html'; ?>
+        <?php include 'views/social-dialog.html'; ?>
+        <?php include 'views/search-overlay.html'; ?>
 
 
 
-
-            <script type="text/javascript" src="bundle.js">
-            </script>
+        <script type="text/javascript" src="bundle.js">
+        </script>
     </body>
 
     </html>
