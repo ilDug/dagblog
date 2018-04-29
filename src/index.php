@@ -19,17 +19,27 @@
     <html>
 
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>
-            <?php echo $post->title; ?>
-        </title>
+        <?php
+            require_once __DIR__ . '/lib/meta.class.php'; $meta = new Meta();
+            $tags = array(
+                $pb->data->title . ' - PosterBook',
+                'Il tuo libro preferito su un unico Poster, idea regalo per gli amanti dei libri.' . $pb->data->items[0]->details,
+                'https://posterbook.it/images/posterbook/' . $pb->data->items[0]->images[1],
+                'https://posterbook.it/posterbook/' . $pb->data->author . '/' . $pb->data->title . '/' . $pb->code()
+            );
+            $meta->publish($tags);
+         ?>
 
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <script defer src="/plugins/fontawesome-pro-5.0.10/svg-with-js/js/fontawesome-all.min.js"></script>
-
         <link rel="stylesheet" href="/styles/override-bootstrap.css">
         <link rel="stylesheet" href="/styles/style.css">
 
+
+        <?php
+            require_once __DIR__ . '/lib/script-managment/script.manager.php';
+            $sm = new ScriptJSManager(); $sm->writeScripts(['iubenda', 'analytics']);
+        ?>
     </head>
 
     <body>
