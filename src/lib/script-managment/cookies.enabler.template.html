@@ -1,0 +1,40 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="/plugins/cookies-enabler/cookies-enabler.min.js"></script>
+
+
+<script type="text/javascript">
+    var cookiesEnablerOptions = {
+        scriptClass: 'ce-script',
+        iframeClass: 'ce-iframe',
+
+        acceptClass: 'ce-accept',
+        dismissClass: 'ce-dismiss',
+        disableClass: 'ce-disable',
+
+        bannerClass: 'ce-banner',
+        bannerHTML:
+            '<p>This website or third-party tools used by this, uses cookies necessary for the operation and useful to the purposes outlined in the <a href="/policies/cookies">cookie policy</a>. If you want to learn more or opt out of all or some cookies, please read the <a href="/policies/cookies">cookie policy</a>. By closing this banner, clicking on a link, scrolling or continuing navigation in any other way, you consent to the use of cookies. <a href="#" class="ce-accept">ok</a> <a href="#" class="ce-dismiss"><i class="fa fa-times"></i></a> </p>',
+
+        eventScroll: true,
+        scrollOffset: 100,
+
+        clickOutside: false,
+
+        cookieName: 'ce-cookie',
+        cookieDuration: '365',
+        wildcardDomain: false,
+
+        iframesPlaceholder: true,
+        iframesPlaceholderHTML:
+            '<p>To view this content you need to'
+                +'<a href="#" class="ce-accept">Enable Cookies</a>'
+            +'</p>',
+        iframesPlaceholderClass: 'ce-iframe-placeholder',
+
+        // Callbacks
+        onEnable: function(){console.log('policy cookies accettata');},
+        onDismiss: '',
+        onDisable: function(){console.log('cookies have been disabled');}
+        };
+    COOKIES_ENABLER.init( cookiesEnablerOptions );
+</script>

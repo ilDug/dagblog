@@ -1,5 +1,7 @@
 <?php
 require_once __DIR__ . '/iubenda.script.php';
+require_once __DIR__ . '/cookies.enabler.script.php';
+require_once __DIR__ . '/structured.data.script.php';
 require_once __DIR__ . '/google.analytics.script.php';
 
 
@@ -17,11 +19,13 @@ class ScriptJSManager {
 
 
 
-    function __construct() {
+    function __construct($post = null) {
 
         $this->scriptList = array(
             'iubenda' => (new IubendaScript()),
-            'analytics' => (new GoogleAnalyticsScript())
+            'analytics' => (new GoogleAnalyticsScript()),
+            'cookiesenabler' => (new CookiesEnablerScript()),
+            'structureddata' => (new StructuredDataScript($post))
         );
 
     }

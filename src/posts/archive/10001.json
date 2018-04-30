@@ -1,8 +1,8 @@
 {
     "code": 10001,
     "date": {
-        "creation": "12-01-2018",
-        "update": "12-01-2018"
+        "creation": "2018-04-30",
+        "update": "2018-04-30"
     },
     "title": "Titolo primo post Milto molto lunghissimo",
     "url": "http://blog.dagtech.it/10001/primo-post-titolauser",
@@ -10,6 +10,8 @@
     "score": 0,
     "priority": 0,
     "fixed": false,
+    "description":"",
+    "headline":"",
     "filename": "123456789.md",
     "tags": {
         "astronomia": {

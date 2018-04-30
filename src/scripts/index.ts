@@ -4,6 +4,17 @@
 
 import 'bootstrap';
 import { Observable } from 'rxjs/Observable';
+// import { Likes } from './likes';
+
+
+
+/** inizializzazione della pagina */
+// $(window).on('load', () => {
+    // $("#d-loader").addClass("body-loader-hidden");
+    // $("#d-content").removeClass("body-loader-hidden");
+// });
+
+
 
 
 $(document).ready(function() {
@@ -41,6 +52,25 @@ $(document).ready(function() {
         e.preventDefault();
         $('#search-overlay').removeClass('open');
     })
+
+
+    // let likes = new Likes(10001);
+    // $('#likes').html('ciccii');
+    // console.log(likes.template)
+
+
+    /** scroll to top */
+    // $(window).scroll(function() {
+    //     if ($(this).scrollTop() != 0) {
+    //         $(".scrollToTop").fadeIn();
+    //     } else {
+    //         $(".scrollToTop").fadeOut();
+    //     }
+    // });
+    //
+    // $(".scrollToTop").click(function() {
+    //     $("body,html").animate({ scrollTop: 0 }, 800);
+    // });
 
 
 });

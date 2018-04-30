@@ -68,8 +68,6 @@ class PostArchiveManager
     }
 
 
-
-
 }
 
 ?>

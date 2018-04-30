@@ -14,20 +14,24 @@ class Meta{
     private $placeholders = array(
         '%TITLE%',
         '%DESCRIPTION%',
-        '%MAIN_IMAGE%',
+        '%CODE%',
         '%URL%',
-        '%KEYWORDS%'
+        '%KEYWORDS%',
+        '%DATE_CREATION%',
+        '%DATE_UPDATE%'
     );
 
-    private $config
+    private $config;
 
-    function __construct($post, $description = null) {
+    function __construct($post) {
         $this->config  = array(
              $post->title,
-             $description,
-             IMAGE_BASEURL . $post->code .'.jpg',
+             $post->description,
+             $post->code,
              $post->url,
-             $this->tags($post->tags)
+             $this->tags($post->tags),
+             $post->date->creation,
+             $post->date->update
         );
     }
 
@@ -48,7 +52,7 @@ class Meta{
      */
     protected function tags($tags){
         $t = 'dagtech, ';
-        foreach ($tags as $key => $value) { $y .= $key . ', '; }
+        foreach ($tags as $tag => $value) { $t .= $tag . ', '; }
         return $t;
     }
 

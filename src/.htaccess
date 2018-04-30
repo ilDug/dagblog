@@ -16,7 +16,7 @@ RewriteCond %{REQUEST_FILENAME} !-l
 
 #ErrorDocument 404 /404-page-not-found.php
 
-#RewriteRule ^([0-9]+)/([^/]+)$ src/index.php?code=$1 [QSA,L]
+RewriteRule ^([0-9]+)/([^/]+)$ index.php?code=$1 [QSA,L]
 #RewriteRule ^(.*)$ index.php [QSA,L]
 
 #RewriteRule ^contacts$ contacts.php [QSA,L]

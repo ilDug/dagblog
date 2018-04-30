@@ -14,23 +14,13 @@
     $article = $pam->post;
     $post = $pam->data;
 ?>
-
-    <!DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
 
     <head>
-        <?php
-            require_once __DIR__ . '/lib/meta.class.php'; $meta = new Meta();
-            $tags = array(
-                $pb->data->title . ' - PosterBook',
-                'Il tuo libro preferito su un unico Poster, idea regalo per gli amanti dei libri.' . $pb->data->items[0]->details,
-                'https://posterbook.it/images/posterbook/' . $pb->data->items[0]->images[1],
-                'https://posterbook.it/posterbook/' . $pb->data->author . '/' . $pb->data->title . '/' . $pb->code()
-            );
-            $meta->publish($tags);
-         ?>
+        <?php require_once __DIR__ . '/lib/meta.class.php'; $meta = new Meta($post); $meta->publish(); ?>
 
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
         <script defer src="/plugins/fontawesome-pro-5.0.10/svg-with-js/js/fontawesome-all.min.js"></script>
         <link rel="stylesheet" href="/styles/override-bootstrap.css">
         <link rel="stylesheet" href="/styles/style.css">
@@ -38,7 +28,7 @@
 
         <?php
             require_once __DIR__ . '/lib/script-managment/script.manager.php';
-            $sm = new ScriptJSManager(); $sm->writeScripts(['iubenda', 'analytics']);
+            $sm = new ScriptJSManager($post); $sm->writeScripts(['iubenda', 'analytics', 'structureddata']);
         ?>
     </head>
 
@@ -52,10 +42,8 @@
                         <article class="">
                             <div class="post-info">
                                 <!-- like -->
-                                <span class="mr-3 float-right">
-                                <a class="mr-1" href="#"><i class="fal fa-heart fa-2x"></i></a>
-                                <span id="heart-counter">1</span>
-                                </span>
+                                <div id="likes"></div>
+
 
                                 <!-- share -->
                                 <span class="mr-3 float-right">
@@ -117,7 +105,7 @@
                                         $template .= '<div class="box-image" style="background-image:url(http://lorempixel.com/300/200);"> </div>';
                                         $template .= '<div class="box-content p-3">';
                                         $template .= '<h5>'. $rpm->data->title . '</h5>';
-                                        $template .= '<p><small class="text-muted">'. $rpm->data->date->update . '</small> <br>';
+                                        $template .= '<p><small class="text-muted">'. date('d/m/Y', strtotime($post->date->update) ) . '</small> <br>';
                                         $template .= '<small class="text-muted">'. $cat .'</small></p>';
                                         $template .= '</div>';
                                         $template .= '</div>';
@@ -149,8 +137,7 @@
 
 
 
-        <script type="text/javascript" src="bundle.js">
-        </script>
+        <script type="text/javascript" src="bundle.js"> </script>
     </body>
 
     </html>
