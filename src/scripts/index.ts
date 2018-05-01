@@ -4,7 +4,8 @@
 
 import 'bootstrap';
 import { Observable } from 'rxjs/Observable';
-// import { Likes } from './likes';
+import { Likes } from './likes';
+import { Views } from './views';
 
 
 
@@ -19,7 +20,8 @@ import { Observable } from 'rxjs/Observable';
 
 $(document).ready(function() {
     console.log('pagina', window.location.href);
-
+    console.log('location', window.location.pathname.split('/'));
+    const _code: number = +window.location.pathname.split('/')[1] ;
 
     /*++++++++++++ ++++++++ ++++++++++++++++++++++++++++++++++*/
     /*++++++++++++ GENERALI ++++++++++++++++++++++++++++++++++*/
@@ -54,10 +56,20 @@ $(document).ready(function() {
     })
 
 
-    // let likes = new Likes(10001);
-    // $('#likes').html('ciccii');
-    // console.log(likes.template)
 
+    /**
+     * imposta i likes
+     */
+    let likes = new Likes(_code);
+    let likeElement = $('#likes');
+    likes.setElement(likeElement).run();
+
+
+
+    //imposta le visualizzazioni
+    let views = new Views(_code);
+    let viewsElement = $('#views');
+    views.setElement(viewsElement).run();
 
     /** scroll to top */
     // $(window).scroll(function() {

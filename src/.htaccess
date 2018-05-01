@@ -2,7 +2,7 @@ RewriteEngine On
 #RewriteBase /
 
 
-RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 
@@ -15,6 +15,7 @@ RewriteCond %{REQUEST_FILENAME} !-l
 #RewriteRule ^(.*)$ http://www.eurokemical.it/$1 [L,R=301]
 
 #ErrorDocument 404 /404-page-not-found.php
+
 
 RewriteRule ^([0-9]+)/([^/]+)$ index.php?code=$1 [QSA,L]
 #RewriteRule ^(.*)$ index.php [QSA,L]

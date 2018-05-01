@@ -42,11 +42,11 @@
                         <article class="">
                             <div class="post-info">
                                 <!-- like -->
-                                <div id="likes"></div>
+                                <div id="likes" ></div>
 
 
                                 <!-- share -->
-                                <span class="mr-3 float-right">
+                                <span class="mr-3 float-right" data-toggle="tooltip" title="condividi">
                                 <a class="mr-1" href="#" data-toggle="modal" data-target="#socialDialog"><i class="fal fa-share-alt fa-2x"></i></a>
                                 </span>
 
@@ -66,7 +66,8 @@
                                 </span>
 
                                 <!-- views -->
-                                <span class="ml-3" data-toggle="tooltip" title="visualizzazioni"><i class="fal fa-asterisk mr-1"></i> 123</span>
+                                <!-- <span class="ml-3" data-toggle="tooltip" title="visualizzazioni"><i class="fal fa-asterisk mr-1"></i> 123</span> -->
+                                <span id="views"></span>
                             </div>
 
 
@@ -137,7 +138,7 @@
 
 
 
-        <script type="text/javascript" src="bundle.js"> </script>
+        <script type="text/javascript" src="/bundle.js"> </script>
     </body>
 
     </html>
