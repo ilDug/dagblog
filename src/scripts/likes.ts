@@ -5,8 +5,8 @@ import { Observable,Subscription } from 'rxjs';
 /** nome del cookies che contiene l'array dei post piaciuti */
 const LIKES_COOKIE : string = 'postsliked'
 
-// const URL_LIKES :  string = 'https://blog.dagtech.it/views/';
-const URL_LIKES :  string = 'http://192.168.0.10:3001/api/likes/';
+const URL_LIKES :  string = 'http://blog.dagtech.it/api/likes/';
+// const URL_LIKES :  string = 'http://192.168.0.10:3001/api/likes/';
 
 
 /**
@@ -94,7 +94,7 @@ export class Likes{
         this.likedPosts.push(this.code);
         this.setState();
 
-        $.post( URL_LIKES , {code:this.code, like: 'like'}, (response)=>{ console.log('liked') }, 'json' );
+        $.post( URL_LIKES , {code:this.code, like: 'like'}, (response)=>{ this.domElement.find('#like-heart-counter').text(response); }, 'json' );
     }
 
 
@@ -109,7 +109,7 @@ export class Likes{
         this.likedPosts.splice(i, 1);
         this.setState();
 
-        $.post( URL_LIKES , {code:this.code, like: 'dislike'}, (response)=>{ console.log('disliked') }, 'json' );
+        $.post( URL_LIKES , {code:this.code, like: 'dislike'}, (response)=>{ this.domElement.find('#like-heart-counter').text(response); }, 'json' );
     }
 
 

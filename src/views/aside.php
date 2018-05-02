@@ -17,26 +17,28 @@
             <div class="card-body">
                 <h5>popolari</h5>
 
+                    <div class="" id="popular-wrapper"> </div>
+
                     <?php
-                        $i=0;
-                        $iterate = 3;
-                        foreach ($post->related as $r) {
-
-                            $rpm =  new PostArchiveManager($post->related[$i]);
-                            foreach ($post->tags as $tag => $value) {
-                                if($value->category) { $cat =  strtoupper($tag);}
-                            }
-                            if($iterate==$i) { break; } else { $i++;  }
-                            $template = '<a class="cameo-link" href="/'. $rpm->data->code .'/'. $rpm->data->url .'">';
-                            $template .= '<div class="post-cameo my-3" style="background-image:url(http://lorempixel.com/300/200);">';
-
-                            $template .= '</div>';
-                            $template .=  '<small>'.$rpm->data->title.'</small>';
-                            $template .= '</a>';
-
-
-                            echo $template;
-                        }
+                        // $i=0;
+                        // $iterate = 3;
+                        // foreach ($post->related as $r) {
+                        //
+                        //     $rpm =  new PostArchiveManager($post->related[$i]);
+                        //     foreach ($post->tags as $tag => $value) {
+                        //         if($value->category) { $cat =  strtoupper($tag);}
+                        //     }
+                        //     if($iterate==$i) { break; } else { $i++;  }
+                        //     $template = '<a class="cameo-link" href="/'. $rpm->data->code .'/'. $rpm->data->url .'">';
+                        //     $template .= '<div class="post-cameo my-3" style="background-image:url(http://lorempixel.com/300/200);">';
+                        //
+                        //     $template .= '</div>';
+                        //     $template .=  '<small>'.$rpm->data->title.'</small>';
+                        //     $template .= '</a>';
+                        //
+                        //
+                        //     echo $template;
+                        // }
                     ?>
                 </div>
             </div>

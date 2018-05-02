@@ -6,6 +6,7 @@ import 'bootstrap';
 import { Observable } from 'rxjs/Observable';
 import { Likes } from './likes';
 import { Views } from './views';
+import { Popular } from './populars';
 
 
 
@@ -70,6 +71,18 @@ $(document).ready(function() {
     let views = new Views(_code);
     let viewsElement = $('#views');
     views.setElement(viewsElement).run();
+
+
+
+
+    /**
+     * carica i post popolari
+     */
+    let populars = new Popular();
+    let popoularsElement = $('#popular-wrapper');
+    populars.setElement(popoularsElement).run();
+
+
 
     /** scroll to top */
     // $(window).scroll(function() {

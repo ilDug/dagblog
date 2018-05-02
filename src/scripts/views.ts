@@ -1,7 +1,7 @@
 import { Observable,Subscription } from 'rxjs';
 
-// const URL_VIEWS :  string = 'https://blog.dagtech.it/views/';
-const URL_VIEWS :  string = 'http://192.168.0.10:3001/api/views/';
+const URL_VIEWS :  string = 'http://blog.dagtech.it/api/views/';
+// const URL_VIEWS :  string = 'http://192.168.0.10:3001/api/views/';
 
 export class Views{
 
