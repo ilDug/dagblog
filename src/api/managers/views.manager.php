@@ -9,9 +9,9 @@ class ViewsManager extends Engine {
     /**
      * ottiene il numero di visite di un post
      */
-    public function getViews($code){
+    public function views($code){
         $res = $this->GetOneRowInfo("SELECT COUNT(ID) as views from views WHERE code = $code");
-        echo $res->views;
+        return $res->views;
     }
 
 
@@ -19,9 +19,9 @@ class ViewsManager extends Engine {
     /**
      * aggiunge una viista e restituisce il numero di visite aggiornato
      */
-    public function addViews($code){
-        $res = $this->GetOneRowInfo("INSERT INTO views SET code = $code");
-        if($res > 0 ) $this->getViews($code);
+    public function add($code){
+        $res = $this->SetDataInDB("INSERT INTO views SET code = $code");
+        if($res > 0 ) return $this->views($code);
     }
 }
 

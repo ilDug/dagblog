@@ -94,7 +94,7 @@ export class Likes{
         this.likedPosts.push(this.code);
         this.setState();
 
-        $.post( URL_LIKES , {code:this.code, like: true}, (response)=>{ console.log('liked') }, 'json' );
+        $.post( URL_LIKES , {code:this.code, like: 'like'}, (response)=>{ console.log('liked') }, 'json' );
     }
 
 
@@ -109,7 +109,7 @@ export class Likes{
         this.likedPosts.splice(i, 1);
         this.setState();
 
-        $.post( URL_LIKES , {code:this.code, like: false}, (response)=>{ console.log('disliked') }, 'json' );
+        $.post( URL_LIKES , {code:this.code, like: 'dislike'}, (response)=>{ console.log('disliked') }, 'json' );
     }
 
 

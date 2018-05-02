@@ -3,6 +3,8 @@
 require __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/../posts/post-archive-manager.php';
 require_once __DIR__ . '/managers/views.manager.php';
+require_once __DIR__ . '/managers/like.manager.php';
+require_once __DIR__ . '/managers/posts.manager.php';
 
 
 // Create a Router
@@ -18,49 +20,69 @@ require_once __DIR__ . '/managers/views.manager.php';
 
 // acquisizione dati del post
  $router->get('posts/(\d+)', function ($code) {
-        //  try {
-        //      $pam = new PostArchiveManager($code);
-        //  } catch (Exception $e) { }
-        // echo json_encode($pam->data);
-        echo 'api/post/'.$code;
+         try {
+             $pam = new PostArchiveManager($code);
+         } catch (Exception $e) { }
+        echo json_encode($pam->data);
  });
+
+
+// acquisizione elenco posts
+ $router->get('posts/popular/(\d+)', function ($limit) {
+         try {
+             $pm = new PostsManager();
+         } catch (Exception $e) { }
+
+
+        echo json_encode($pm->popular($limit));
+ });
+
+
+
+
 
 
 // acquisizione dati del post
 $router->get('views/(\d+)', function ($code) {
-    // $vm = new ViewsManager();
-    // echo $vm->getViews($code);
-    echo 13;
+    $vm = new ViewsManager();
+    echo $vm->views($code);
 });
 
 $router->post('views/', function () {
-    // $vm = new ViewsManager();
-    // echo $vm->addViews($code);
-
     //$data = json_decode(file_get_contents('php://input'), true); //array
     $data = json_decode(file_get_contents('php://input'));//object
-    $data = !$data ? $_POST : $data;
+    $data = !$data ? (object)$_POST : $data;
 
-    echo true;
+    if(!$data->code) return;
+
+    $vm = new ViewsManager();
+    echo $vm->add($data->code);
 });
 
-$router->post('likes/', function () {
-    // $vm = new ViewsManager();
-    // echo $vm->addViews($code);
 
+
+
+
+
+
+$router->post('likes/', function () {
     //$data = json_decode(file_get_contents('php://input'), true); //array
     $data = json_decode(file_get_contents('php://input'));//object
-    $data = !$data ? $_POST : $data;
+    $data = !$data ? (object)$_POST : $data;
 
-    echo json_encode($data);
+    if(!$data->code) return ('error');
+    if(!$data->like) return ('error like not set');
+
+    $lm = new LikeManager();
+    if($data->like == "like") { echo $lm->like($data->code); }
+    elseif($data->like == "dislike") {echo  $lm->dislike($data->code); }
 });
 
 
 
 $router->get('likes/(\d+)', function ($code) {
-    // $vm = new ViewsManager();
-    // echo $vm->getViews($code);
-    echo 23;
+    $lm = new LikeManager();
+    echo $lm->likes($code);
 });
 
 
