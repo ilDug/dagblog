@@ -1,32 +1,49 @@
 {
     "code": 10001,
     "date": {
-        "creation": "2018-04-30",
-        "update": "2018-04-30"
+        "creation": "2018-05-03",
+        "update": "2018-05-03"
     },
-    "title": "Titolo primo post Milto molto lunghissimo",
-    "url": "http://blog.dagtech.it/10001/primo-post-titolauser",
-    "related": [10001, 10001, 10001, 10001],
+    "title": "Come implementare il Two Way binding  in un component  angular 5",
+    "url": "http://blog.dagtech.it/10001/two-way-data-binding",
+    "related": [
+        10001,
+        10001,
+        10001,
+        10001
+    ],
     "score": 0,
     "priority": 0,
     "fixed": false,
-    "description":"",
-    "headline":"",
-    "filename": "123456789.md",
+    "description": " Il two way data binding permette di passare dati al Component e ricevere il risultato di una elaborazione,  utilizzando una sola variabile,  al posto di una variabile in ingresso ed un evento in uscita.",
+    "headline": "Il two way data binding permette di passare dati al Component e ricevere il risultato di una elaborazione",
+    "filename": "10001.two-way-data-binding.md",
     "tags": {
-        "astronomia": {
+        "angular": {
             "category": true,
             "label": false
         },
-        "scienza": {
+        "coding": {
             "category": false,
             "label": true
         },
-        "stelle": {
+        "typescript": {
             "category": false,
             "label": true
         },
-        "pianeti": {
+        "javascript": {
+            "category": false,
+            "label": true
+        },
+        "component": {
+            "category": false,
+            "label": true
+        },
+        "development": {
+            "category": false,
+            "label": true
+        },
+        "programming": {
             "category": false,
             "label": true
         }

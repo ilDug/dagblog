@@ -3,6 +3,7 @@
  */
 
 import 'bootstrap';
+import 'prismjs';
 import { Observable } from 'rxjs/Observable';
 import { Likes } from './likes';
 import { Views } from './views';
@@ -31,6 +32,15 @@ $(document).ready(function() {
     /** attiva tutti i tooltip */
     $('[data-toggle="tooltip"]').tooltip()
 
+
+
+    /**
+     * per ogni link nel post sceglie quelli esterni e li a pre in una nuova scheda
+     */
+    $('.post a').each((i, el)=>{
+        let href = $(el).attr('href').substr(0,4);
+        if(/http/.test(href)) $(el).attr('target', '_blank');
+    });
 
 
     /** RICERCA */

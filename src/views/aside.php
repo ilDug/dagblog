@@ -4,9 +4,9 @@
     <div class="col-12">
         <h5>social</h5>
         <div class="d-flex justify-content-around">
-            <span class="social-icon"><a href="https://www.facebook.com/posterbook/" ><i class="fab fa-facebook fa-2x" style="left:15px;"></i></a></span>
-            <span class="social-icon"><a href="https://twitter.com/Poster_Book" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></span>
-            <span class="social-icon"><a href="https://www.instagram.com/poster.book/" ><i class="fab fa-instagram fa-2x"></i></a></span>
+            <span class="social-icon"><a href="#" data-toggle="modal" data-target="#socialDialog"><i class="fab fa-facebook fa-2x" style="left:15px;"></i></a></span>
+            <span class="social-icon"><a href="#" data-toggle="modal" data-target="#socialDialog"><i class="fab fa-twitter fa-2x"></i></a></span>
+            <span class="social-icon"><a href="#" data-toggle="modal" data-target="#socialDialog"><i class="fab fa-google-plus fa-2x"></i></a></span>
         </div>
     </div>
 </div>

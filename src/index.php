@@ -78,11 +78,13 @@
 
                             <!-- tags -->
                             <hr>
-                            <?php
-                                foreach ($post->tags as $tag => $value) {
-                                    if($value->label) { echo '<span class="ml-3 post-tag">'. $tag .'</span>';}
-                                }
-                            ?>
+                            <div class="post-tag-wrapper d-flex flex-wrap">
+                                <?php
+                                    foreach ($post->tags as $tag => $value) {
+                                        if($value->label) { echo '<span class="ml-3  my-2 post-tag">'. $tag .'</span>';}
+                                    }
+                                ?>
+                            </div>
                             <hr>
                         </article>
 
@@ -103,7 +105,7 @@
                                         $template = '<div class="article-card">';
                                         $template .= '<a class="card-box-link" href="/'. $rpm->data->code .'/'. $rpm->data->url .'">';
                                         $template .= '<div class=" card shdw-h d-flex">';
-                                        $template .= '<div class="box-image" style="background-image:url(http://lorempixel.com/300/200);"> </div>';
+                                        $template .= '<div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/'. $rpm->data->code .'.jpg);"> </div>';
                                         $template .= '<div class="box-content p-3">';
                                         $template .= '<h5>'. $rpm->data->title . '</h5>';
                                         $template .= '<p><small class="text-muted">'. date('d/m/Y', strtotime($post->date->update) ) . '</small> <br>';

@@ -39,7 +39,7 @@ $navbar-light-toggler-border-color: rgba($color-primary,.1) !default;
 
 
 
-
+$dag-pre-background-color: rgb(243,239, 231);
 
 
 /**************************************************/
@@ -49,4 +49,23 @@ $navbar-light-toggler-border-color: rgba($color-primary,.1) !default;
 .navbar-toggler{
     border: none;
     color: $gray-700;
+}
+
+
+
+code{
+    color: rgb(76, 142, 158);
+    background-color: $gray-200;
+    padding: 3px 5px;
+}
+
+
+pre{
+    code{
+        background-color: transparent;
+    }
+    overflow-x: auto;
+    background-color: $dag-pre-background-color;
+    padding: 2rem;
+    border-left: 5px solid darken($dag-pre-background-color, 10);
 }
