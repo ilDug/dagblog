@@ -1,0 +1,79 @@
+// main: ./style.scss
+
+
+//
+//  *{
+//     box-sizing: border-box;
+//     margin: 0;
+//     padding: 0;
+// }
+//
+// p{
+//     margin-bottom: 1em;
+// }
+
+.ce-banner{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(120,70,70,0.9);
+    padding: 1em;
+    color:   white;
+    color: black;
+    font-size: 0.8em;
+    z-index: 1000;
+    min-height: 150px;
+}
+
+/* #232323;*/
+.ce-accept, .ce-dismiss, .ce-disable{
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: .6em 1em;
+    display: inline-block;
+    margin: 0 .5em;
+}
+
+.ce-disable{
+    background-color: #aaa;
+}
+
+.ce-accept:hover,
+.ce-dismiss:hover,
+.ce-disable:hover{
+    background-color: #666;
+    color: white;
+}
+
+.ce-accept{
+    background-color: #FF6565;
+    color: #111;
+}
+
+.ce-dismiss{
+    position: absolute;
+
+    font-size: .8em;
+
+    right: 1em;
+    top: 1em;
+
+    background-color: #ccc;
+    color: #333;
+}
+
+.ce-iframe-placeholder{
+    padding: 1em;
+    background-color: #eee;
+    margin: 1em 0;
+}
+
+.ce-iframe-placeholder p{
+    margin: 0;
+}
+
+iframe{
+    width: 100%;
+}

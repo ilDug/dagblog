@@ -3,6 +3,7 @@ require_once __DIR__ . '/iubenda.script.php';
 require_once __DIR__ . '/cookies.enabler.script.php';
 require_once __DIR__ . '/structured.data.script.php';
 require_once __DIR__ . '/google.analytics.script.php';
+require_once __DIR__ . '/google.adsense.script.php';
 
 
 
@@ -25,7 +26,8 @@ class ScriptJSManager {
             'iubenda' => (new IubendaScript()),
             'analytics' => (new GoogleAnalyticsScript()),
             'cookiesenabler' => (new CookiesEnablerScript()),
-            'structureddata' => (new StructuredDataScript($post))
+            'structureddata' => (new StructuredDataScript($post)),
+            'adsense' => (new GoogleAdsenseScript($post))
         );
 
     }

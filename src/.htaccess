@@ -11,21 +11,22 @@ RewriteCond %{REQUEST_FILENAME} !-l
 #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 #aggiunge www
-#RewriteCond %{HTTP_HOST} ^eurokemical.it$ [NC]
-#RewriteRule ^(.*)$ http://www.eurokemical.it/$1 [L,R=301]
+#RewriteCond %{HTTP_HOST} ^www.blog.dagtech.it$ [NC]
+#RewriteRule ^(.*)$ http://blog.dagtech.it/$1 [L,R=301]
 
 #ErrorDocument 404 /404-page-not-found.php
 
 
-RewriteRule ^([0-9]+)/([^/]+)$ index.php?code=$1 [QSA,L]
+RewriteRule ^policies/cookies$ privacy-cookies.php [QSA,L]
+RewriteRule ^policies/privacy$ privacy-policy.php [QSA,L]
+RewriteRule ^([0-9]+)/([^/]+)$ post.php?code=$1 [QSA,L]
+
 #RewriteRule ^(.*)$ index.php [QSA,L]
 
 #RewriteRule ^contacts$ contacts.php [QSA,L]
 #RewriteRule ^products$ products.php [QSA,L]
 #RewriteRule ^quality$ ISO9001.php [QSA,L]
 #RewriteRule ^search$ search.php [QSA,L]
-#RewriteRule ^policies/cookies$ cookies-policy.php [QSA,L]
-#RewriteRule ^policies/privacy$ privacy-policy.php [QSA,L]
 #RewriteRule ^products/([0-9]+)/([^/]+)$ product.php?p=$1 [QSA,L]
 
 
