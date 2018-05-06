@@ -137,7 +137,7 @@
         <?php include 'views/footer.html'; ?>
         <?php include 'views/social-dialog.html'; ?>
         <?php include 'views/search-overlay.html'; ?>
-        <?php  $sm->writeScripts(['cookies-enabler']); ?>
+        <?php  $sm->writeScripts(['cookiesenabler']); ?>
 
 
         <script type="text/javascript" src="/bundle.js"> </script>
