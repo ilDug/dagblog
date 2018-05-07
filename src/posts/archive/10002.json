@@ -1,0 +1,51 @@
+{
+    "code": 10001,
+    "date": {
+        "creation": "2018-05-07",
+        "update": "2018-05-07"
+    },
+    "title": "Velocità di fuga da un pianeta - CALCOLO",
+    "url": "http://blog.dagtech.it/10002/velocita-di-fuga",
+    "related": [
+        10001,
+        10002,
+        10001,
+        10002
+    ],
+    "score": 0,
+    "priority": 0,
+    "fixed": false,
+    "description": " Si definisce *velocità di fuga,* la velocità che un corpo deve avere per poter lasciare un pianeta od un altro corpo celeste che eserciti un’attrazione gravitazionale.",
+    "headline": "Si definisce *velocità di fuga,* la velocità che un corpo deve avere per poter lasciare un pianeta ",
+    "filename": "10002.velocita-di-fuga.md",
+    "tags": {
+        "fisica": {
+            "category": true,
+            "label": false
+        },
+        "astronomia": {
+            "category": false,
+            "label": true
+        },
+        "velocità": {
+            "category": false,
+            "label": true
+        },
+        "energia": {
+            "category": false,
+            "label": true
+        },
+        "pianeti": {
+            "category": false,
+            "label": true
+        },
+        "stelle": {
+            "category": false,
+            "label": true
+        },
+        "meccanica celeste": {
+            "category": false,
+            "label": true
+        }
+    }
+}

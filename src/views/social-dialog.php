@@ -17,7 +17,7 @@
                 <div class="list-group list-group-flush">
                     <a href="#" class="list-group-item"><i class="fab fa-twitter fa-2x mr-3 "></i> <span class="text-muted">Twitter</span></a>
                     <a href="#" class="list-group-item"><i class="fab fa-facebook fa-2x mr-3 "></i> <span class="text-muted">
-                        <div class="fb-like" data-href="http://blog.dagtech.it" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                        <div class="fb-like" data-href="<?php echo $rpm->data->url; ?>" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
                     </span></a>
                     <a href="#" class="list-group-item"><i class="fab fa-google-plus fa-2x mr-3 "></i> <span class="text-muted">Google Plus</span></a>
                 </div>

@@ -1,2 +1,2 @@
-import 'mathjax/MathJax.js?config=default';
+// import 'mathjax/MathJax.js?config=default';
 import 'prismjs';

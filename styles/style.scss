@@ -4,7 +4,8 @@
 
 // Google font import
 // @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:100,400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Montserrat:400,400i,700');
+// @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Montserrat:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Changa+One|Comfortaa');
 @import "../node_modules/prismjs/themes/prism";
 
 @import "variables";
@@ -21,7 +22,7 @@
 // @import "privacy-cookies";
 
 
-p{
+p, ol li, ul li{
     color:$dag-paragraph-color;
 }
 

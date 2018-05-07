@@ -135,7 +135,7 @@
 
 
         <?php include 'views/footer.html'; ?>
-        <?php include 'views/social-dialog.html'; ?>
+        <?php include 'views/social-dialog.php'; ?>
         <?php include 'views/search-overlay.html'; ?>
         <?php  $sm->writeScripts(['cookiesenabler']); ?>
 
