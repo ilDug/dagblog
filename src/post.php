@@ -140,7 +140,9 @@
         <?php  $sm->writeScripts(['cookiesenabler']); ?>
 
 
-        <script type="text/javascript" src="/bundle.js"> </script>
+        <!-- <script type="text/javascript" src="/bundle.js"> </script> -->
+        <script type="text/javascript" src="/bundle.index.js"> </script>
+        <script type="text/javascript" src="/bundle.vendors.js"> </script>
     </body>
 
     </html>

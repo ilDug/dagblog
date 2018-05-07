@@ -3,11 +3,14 @@
  */
 
 import 'bootstrap';
-import 'prismjs';
-import { Observable } from 'rxjs/Observable';
+// import 'prismjs';
+// import 'mathjax/MathJax.js?config=default';
+// import { Observable } from 'rxjs/Observable';
 import { Likes } from './likes';
 import { Views } from './views';
 import { Popular } from './populars';
+
+// <script type="text/javascript" src="path-to-MathJax/MathJax.js?config=default"></script>
 
 
 

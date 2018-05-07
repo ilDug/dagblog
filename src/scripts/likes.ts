@@ -1,5 +1,6 @@
 import { Cookie } from './cookie';
-import { Observable,Subscription } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+import  'rxjs/add/observable/fromPromise';
 
 
 /** nome del cookies che contiene l'array dei post piaciuti */

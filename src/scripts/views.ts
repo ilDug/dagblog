@@ -1,4 +1,6 @@
-import { Observable,Subscription } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+import  'rxjs/add/observable/fromPromise';
+import  'rxjs/add/operator/switchMap';
 
 const URL_VIEWS :  string = 'http://blog.dagtech.it/api/views/';
 // const URL_VIEWS :  string = 'http://192.168.0.10:3001/api/views/';
@@ -85,7 +87,7 @@ export class Views{
 
 
     public run(){
-        let s : Subscription = this.add(this.code).switchMap((x)=>{ return this.get(this.code) })
+        this.add(this.code).switchMap((x)=>{ return this.get(this.code) })
             .subscribe((views: number)=>{ this.write(views); })
 
     }

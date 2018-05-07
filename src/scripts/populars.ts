@@ -1,4 +1,6 @@
-import { Observable,Subscription } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+import  'rxjs/add/observable/fromPromise';
+import  'rxjs/add/operator/map';
 
 const URL_POPULARS :  string = 'http://blog.dagtech.it/api/posts/popular/';
 const URL_IMAGES :  string = 'http://192.168.0.10:3001/images/posts/';
@@ -79,7 +81,7 @@ export class Popular{
 
 
     public run(){
-        let s : Subscription = this.get()
+        this.get()
             .map( (list:any[])=>{
                 return list.map(this.parse).join();
             })
