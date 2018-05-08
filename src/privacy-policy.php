@@ -102,8 +102,8 @@
                                                                 <li>
                                                                     <div class="iconed icon_owner">
                                                                         <h3>Titolare del Trattamento dei Dati</h3>
-                                                                        <p>Roberta Piacentini - Via Corini, 26010 Sergnano (CR) - Italia</p>
-                                                                        <p><b>Indirizzo email del Titolare:</b> roby@looko.it</p>
+                                                                        <p>Marco Dognini - Via Corini, 26010 Sergnano (CR) - Italia</p>
+                                                                        <p><b>Indirizzo email del Titolare:</b> marco.dognini@dagtech.it</p>
                                                                     </div>
                                                                 </li>
                                                             </ul>
@@ -116,8 +116,8 @@
                                                 <!-- /one_line_col -->
                                                 <div class="one_line_col">
                                                     <h2 id="owner_of_the_data">Titolare del Trattamento dei Dati</h2>
-                                                    <p>Roberta Piacentini - Via Corini, 26010 Sergnano (CR) - Italia</p>
-                                                    <p><b>Indirizzo email del Titolare:</b> roby@looko.it</p>
+                                                    <p>Marco Dognini - Via Corini, 26010 Sergnano (CR) - Italia</p>
+                                                    <p><b>Indirizzo email del Titolare:</b> marco.dognini@dagtech.it</p>
                                                 </div>
                                                 <!-- /one_line_col -->
                                                 <div class="one_line_col">

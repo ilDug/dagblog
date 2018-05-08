@@ -27,7 +27,7 @@
 
                                     <div class="one_line_col">
 
-                                        <h2 style="padding-top: 0;">Cookie Policy di looko.it</h2>
+                                        <h2 style="padding-top: 0;">Cookie Policy di blog.dagtech.it</h2>
 
                                         <p>I Cookie sono costituiti da porzioni di codice installate all'interno del browser che assistono il Titolare nell’erogazione del servizio in base alle finalità descritte. Alcune delle finalità di installazione dei
                                             Cookie potrebbero, inoltre, necessitare del consenso dell'Utente.</p>
@@ -368,8 +368,8 @@
 
                                         <h3 id="owner_of_the_data">Titolare del Trattamento dei Dati</h3>
 
-                                        <p>Roberta Piacentini - Via Corini, 26010 Sergnano (CR) - Italia</p>
-                                        <p><b>Indirizzo email del Titolare:</b> roby@looko.it</p>
+                                        <p>Marco Dognini - Via Corini, 26010 Sergnano (CR) - Italia</p>
+                                        <p><b>Indirizzo email del Titolare:</b> marco.dognini@dagtech.it</p>
 
 
                                         <p>
@@ -473,10 +473,11 @@
         </main>
 
 
-        <?php include 'views/footer.html'; ?>
+            <?php include 'views/footer.html'; ?>
             <?php include 'views/search-overlay.html'; ?>
-                <script type="text/javascript" src="/bundle.js">
-                </script>
+            <script type="text/javascript" src="/bundle.index.js"> </script>
+            <script type="text/javascript" src="/bundle.vendors.js"> </script>
+
 </body>
 
 </html>

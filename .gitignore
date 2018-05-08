@@ -2,6 +2,7 @@
 
 #per font awesome e altre cose che non volgio siano da mettere su github
 /src/plugins
+/API
 
 # compiled output
 /dist
