@@ -28,7 +28,7 @@
 
         <?php
             require_once __DIR__ . '/lib/script-managment/script.manager.php';
-            $sm = new ScriptJSManager($post); $sm->writeScripts(['iubenda', 'analytics', 'structureddata']);
+            $sm = new ScriptJSManager($post); $sm->writeScripts(['adsense', 'analytics', 'structureddata']);
         ?>
     </head>
 
@@ -97,8 +97,8 @@
                                     $iterate = 3;
                                     foreach ($post->related as $r) {
 
-                                        $rpm =  new PostArchiveManager($post->related[$i]);
-                                        foreach ($post->tags as $tag => $value) {
+                                        $rpm =  new PostArchiveManager($r);
+                                        foreach ($rpm->data->tags as $tag => $value) {
                                             if($value->category) { $cat =  strtoupper($tag);}
                                         }
                                         if($iterate==$i) { break; } else { $i++;  }
@@ -108,8 +108,8 @@
                                         $template .= '<div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/'. $rpm->data->code .'.jpg);"> </div>';
                                         $template .= '<div class="box-content p-3">';
                                         $template .= '<h5>'. $rpm->data->title . '</h5>';
-                                        $template .= '<p><small class="text-muted">'. date('d/m/Y', strtotime($post->date->update) ) . '</small> <br>';
-                                        $template .= '<small class="text-muted">'. $cat .'</small></p>';
+                                        $template .= '<p><small class="text-muted"><i class="fal fa-clock"></i> '. date('d/m/Y', strtotime($rpm->data->date->update) ) . '</small> <br>';
+                                        $template .= '<small class="text-muted"><i class="fal fa-tag"></i> '. $cat .'</small></p>';
                                         $template .= '</div>';
                                         $template .= '</div>';
                                         $template .= '</a>';

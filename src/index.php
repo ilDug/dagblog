@@ -71,26 +71,26 @@
                             </div>
 
                             <div class="col-md-4 <?php if(!$posts[2])echo 'd-none'; ?>">
-                                <div class="article-card-index"><a href="/<?php echo '10001'; ?>/<?php echo 'tit'; ?>" class="card-box-link">
+                                <div class="article-card-index"><a href="<?php echo $posts[2]->url; ?>" class="card-box-link">
                                     <div class=" card shdw-h d-flex">
-                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo '10001'; ?>.jpg);"> </div>
+                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo $posts[2]->code; ?>.jpg);"> </div>
                                         <div class="box-content p-3">
-                                            <h5><?php echo 'titolo di prova php' ?></h5>
-                                            <p><small class="text-muted"><?php echo date('d/m/Y', strtotime('08/05/2018') ); ?></small> <br>
-                                            <small class="text-muted"><?php echo 'category'; ?></small></p>
+                                            <h5><?php echo $posts[2]->title ?></h5>
+                                            <p><small class="text-muted"><i class="fal fa-clock"></i> <?php echo date('d/m/Y', strtotime($posts[2]->date->update) ); ?></small> <br>
+                                            <small class="text-muted"><i class="fal fa-tag"></i> <?php foreach ($posts[2]->tags as $tag => $value) { if($value->category) { echo strtoupper($tag);} } ?></small></p>
                                         </div>
                                     </div>
                                 </a></div>
                             </div>
 
                             <div class="col-md-4 <?php if(!$posts[3])echo 'd-none'; ?>">
-                                <div class="article-card-index"><a href="/<?php echo '10001'; ?>/<?php echo 'tit'; ?>" class="card-box-link">
+                                <div class="article-card-index"><a href="<?php echo $posts[3]->url; ?>" class="card-box-link">
                                     <div class=" card shdw-h d-flex">
-                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo '10001'; ?>.jpg);"> </div>
+                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo $posts[3]->code; ?>.jpg);"> </div>
                                         <div class="box-content p-3">
-                                            <h5><?php echo 'titolo di prova php' ?></h5>
-                                            <p><small class="text-muted"><?php echo date('d/m/Y', strtotime('08/05/2018') ); ?></small> <br>
-                                            <small class="text-muted"><?php echo 'category'; ?></small></p>
+                                            <h5><?php echo $posts[3]->title ?></h5>
+                                            <p><small class="text-muted"><i class="fal fa-clock"></i> <?php echo date('d/m/Y', strtotime($posts[3]->date->update) ); ?></small> <br>
+                                            <small class="text-muted"><i class="fal fa-tag"></i> <?php foreach ($posts[3]->tags as $tag => $value) { if($value->category) { echo strtoupper($tag);} } ?></small></p>
                                         </div>
                                     </div>
                                 </a></div>
@@ -101,37 +101,37 @@
                         <!-- gruppo post in linea ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
                         <div class="row" id="index-card-group-lines">
                             <div class="col-12 ">
-                                <div class="article-card-index <?php if(!$posts[4])echo 'd-none'; ?>"><a href="/<?php echo '10001'; ?>/<?php echo 'tit'; ?>" class="card-box-link">
+                                <div class="article-card-index  <?php if(!$posts[4])echo 'd-none'; ?>"><a href="<?php echo $posts[4]->url; ?>" class="card-box-link">
                                     <div class=" card shdw-h d-flex">
-                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo '10001'; ?>.jpg);"> </div>
+                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo $posts[4]->code; ?>.jpg);"> </div>
                                         <div class="box-content p-3">
-                                            <h5><?php echo 'titolo di prova php' ?></h5>
-                                            <p><small class="text-muted"><?php echo date('d/m/Y', strtotime('08/05/2018') ); ?></small> <br>
-                                            <small class="text-muted"><?php echo 'category'; ?></small></p>
+                                            <h5><?php echo $posts[4]->title ?></h5>
+                                            <p><small class="text-muted"><i class="fal fa-clock"></i> <?php echo date('d/m/Y', strtotime($posts[4]->date->update) ); ?></small> <br>
+                                            <small class="text-muted"><i class="fal fa-tag"></i> <?php foreach ($posts[4]->tags as $tag => $value) { if($value->category) { echo strtoupper($tag);} } ?></small></p>
                                         </div>
                                     </div>
                                 </a></div>
 
 
-                                <div class="article-card-index <?php if(!$posts[5])echo 'd-none'; ?>"><a href="/<?php echo '10001'; ?>/<?php echo 'tit'; ?>" class="card-box-link">
+                                <div class="article-card-index <?php if(!$posts[5])echo 'd-none'; ?>"><a href="<?php echo $posts[5]->url; ?>" class="card-box-link">
                                     <div class=" card shdw-h d-flex">
-                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo '10001'; ?>.jpg);"> </div>
+                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo $posts[5]->code; ?>.jpg);"> </div>
                                         <div class="box-content p-3">
-                                            <h5><?php echo 'titolo di prova php' ?></h5>
-                                            <p><small class="text-muted"><?php echo date('d/m/Y', strtotime('08/05/2018') ); ?></small> <br>
-                                            <small class="text-muted"><?php echo 'category'; ?></small></p>
+                                            <h5><?php echo $posts[5]->title ?></h5>
+                                            <p><small class="text-muted"><i class="fal fa-clock"></i> <?php echo date('d/m/Y', strtotime($posts[5]->date->update) ); ?></small> <br>
+                                            <small class="text-muted"><i class="fal fa-tag"></i> <?php foreach ($posts[5]->tags as $tag => $value) { if($value->category) { echo strtoupper($tag);} } ?></small></p>
                                         </div>
                                     </div>
                                 </a></div>
 
 
-                                <div class="article-card-index <?php if(!$posts[6])echo 'd-none'; ?>"><a href="/<?php echo '10001'; ?>/<?php echo 'tit'; ?>" class="card-box-link">
+                                <div class="article-card-index <?php if(!$posts[6])echo 'd-none'; ?>"><a href="<?php echo $posts[6]->url; ?>" class="card-box-link">
                                     <div class=" card shdw-h d-flex">
-                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo '10001'; ?>.jpg);"> </div>
+                                        <div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/<?php echo $posts[6]->code; ?>.jpg);"> </div>
                                         <div class="box-content p-3">
-                                            <h5><?php echo 'titolo di prova php' ?></h5>
-                                            <p><small class="text-muted"><?php echo date('d/m/Y', strtotime('08/05/2018') ); ?></small> <br>
-                                            <small class="text-muted"><?php echo 'category'; ?></small></p>
+                                            <h5><?php echo $posts[6]->title ?></h5>
+                                            <p><small class="text-muted"><i class="fal fa-clock"></i> <?php echo date('d/m/Y', strtotime($posts[6]->date->update) ); ?></small> <br>
+                                            <small class="text-muted"><i class="fal fa-tag"></i> <?php foreach ($posts[6]->tags as $tag => $value) { if($value->category) { echo strtoupper($tag);} } ?></small></p>
                                         </div>
                                     </div>
                                 </a></div>
