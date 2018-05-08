@@ -27,7 +27,7 @@ class ScriptJSManager {
             'analytics' => (new GoogleAnalyticsScript()),
             'cookiesenabler' => (new CookiesEnablerScript()),
             'structureddata' => (new StructuredDataScript($post)),
-            'adsense' => (new GoogleAdsenseScript($post))
+            'adsense' => (new GoogleAdsenseScript())
         );
 
     }

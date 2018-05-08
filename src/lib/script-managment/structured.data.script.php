@@ -17,6 +17,7 @@ class StructuredDataScript extends ScriptJS {
     );
 
     function __construct($post) {
+            if(!$post){ return; }
             $config  = array(
                  $post->title,
                  $post->description,
