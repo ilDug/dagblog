@@ -2,10 +2,10 @@ import { Observable } from 'rxjs/Observable';
 import  'rxjs/add/observable/fromPromise';
 import  'rxjs/add/operator/map';
 
-const URL_POPULARS :  string = 'http://blog.dagtech.it/api/posts/popular/';
-const URL_IMAGES :  string = 'http://192.168.0.10:3001/images/posts/';
-// const URL_IMAGES :  string = 'http://blog.dagtech.it/images/';
+// const URL_IMAGES :  string = 'http://192.168.0.10:3001/images/posts/';
+const URL_IMAGES :  string = 'http://blog.dagtech.it/images/posts/';
 // const URL_POPULARS :  string = 'http://192.168.0.10:3001/api/views/';
+const URL_POPULARS :  string = 'http://blog.dagtech.it/api/posts/popular/';
 
 export class Popular{
 

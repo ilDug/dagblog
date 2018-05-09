@@ -35,7 +35,7 @@ export class Likes{
         let c = new Cookie();
 
         /** controlla che esita altrimenti lo crea nuovo */
-        if(!c.check(LIKES_COOKIE)) { c.set(LIKES_COOKIE, '[]') }
+        if(!c.check(LIKES_COOKIE)) { c.set(LIKES_COOKIE, '[]', 365, '/') }
 
 
         /** inseisce i risultati nella proprietà della classe */
@@ -118,7 +118,7 @@ export class Likes{
     /** imposta il cuore colorato o vuoto in base al parametro */
     private setState(){
         let c = new Cookie();
-        c.set( LIKES_COOKIE, JSON.stringify(this.likedPosts) );
+        c.set( LIKES_COOKIE, JSON.stringify(this.likedPosts), 365, '/' );
 
 
         if(this.isLoved()){

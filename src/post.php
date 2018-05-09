@@ -103,7 +103,7 @@
                                         }
                                         if($iterate==$i) { break; } else { $i++;  }
                                         $template = '<div class="article-card">';
-                                        $template .= '<a class="card-box-link" href="/'. $rpm->data->code .'/'. $rpm->data->url .'">';
+                                        $template .= '<a class="card-box-link" href="'. $rpm->data->url .'">';
                                         $template .= '<div class=" card shdw-h d-flex">';
                                         $template .= '<div class="box-image" style="background-image:url(http://blog.dagtech.it/images/posts/'. $rpm->data->code .'.jpg);"> </div>';
                                         $template .= '<div class="box-content p-3">';

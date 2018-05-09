@@ -1,9 +1,14 @@
+import { Cookie } from './cookie';
 import { Observable } from 'rxjs/Observable';
 import  'rxjs/add/observable/fromPromise';
 import  'rxjs/add/operator/switchMap';
+import  'rxjs/add/operator/do';
 
 const URL_VIEWS :  string = 'http://blog.dagtech.it/api/views/';
 // const URL_VIEWS :  string = 'http://192.168.0.10:3001/api/views/';
+
+/** nome del cookies che contiene l'array dei post visualizzati */
+const VIEWS_COOKIE : string = 'postsviewed'
 
 export class Views{
 
@@ -17,9 +22,21 @@ export class Views{
 
     public code: number;
     private domElement : JQuery<HTMLElement>;
+    private viewedposts : number[] = [];
 
     constructor(code:number){
         this.code = code;
+
+        /** cre l'oggetto cookies */
+        let c = new Cookie();
+
+
+        /** controlla che esita altrimenti lo crea nuovo */
+        if(!c.check(VIEWS_COOKIE)) { c.set(VIEWS_COOKIE, '[]', 365, '/') }
+
+
+        /** inseisce i risultati nella proprietà della classe */
+        this.viewedposts = JSON.parse( c.get(VIEWS_COOKIE) );
     }
 
 
@@ -32,6 +49,13 @@ export class Views{
         return this;
     }
 
+
+    /** controlla nei cookies se c'è il codice per quesa pagina */
+    private isViewed():boolean{
+        let i = this.viewedposts.indexOf(this.code);
+        console.log(i, this.code, this.viewedposts)
+        return i > -1;
+    }
 
 
 
@@ -87,8 +111,23 @@ export class Views{
 
 
     public run(){
-        this.add(this.code).switchMap((x)=>{ return this.get(this.code) })
-            .subscribe((views: number)=>{ this.write(views); })
+        if(this.isViewed()){
+            /** se la paginaè già stata vista */
+            this.get(this.code)
+                .subscribe((views: number)=>{ this.write(views); })
+        }else{
+            /** se la pagina non è mai stata vista  */
+            this.add(this.code)
+                .do(()=>{
+                    this.viewedposts.push(this.code);
+                    /** aggiunge il cookies */
+                    let c = new Cookie();
+                    c.set( VIEWS_COOKIE, JSON.stringify(this.viewedposts), 365, '/');
+                })
+                .switchMap((x)=>{ return this.get(this.code) })
+                .subscribe((views: number)=>{ this.write(views); })
+        }
+
 
     }
 

@@ -1,9 +1,0 @@
-{
-    "name": "dagtech/graph",
-    "description": "app",
-    "require": {
-        "phpmailer/phpmailer": "^6.0",
-        "bramus/router": "^1.2",
-        "lcobucci/jwt": "^3.2"
-    }
-}
